@@ -1,0 +1,8 @@
+{
+  "gainDB": 10,
+  "referenceVersion": "1.0.1",
+  "frameMS": 20,
+  "gateBelowPeakDB": 20,
+  "compressor": "acompressor=threshold=0.0630957:ratio=3:knee=2.828:attack=1:release=30:makeup=1:detection=peak",
+  "truePeakCeilingDBTP": -0.5
+}

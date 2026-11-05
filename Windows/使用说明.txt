@@ -1,0 +1,18 @@
+陈震桌宠 Windows 使用说明
+
+系统要求：Windows 10/11 x64。
+
+安装
+从 https://github.com/aaba9152/chenzhen-desktop-pet/releases/latest 下载 Windows ZIP，解压到可写目录后双击 ChenzhenPet.exe。成品已包含 .NET 运行环境，无需安装 SDK、Python 或语音模型。
+
+使用
+单击人物依次循环播放六句；播放中再点立即切换。拖动人物可移动位置，拖动右下角可调整大小。点击人物旁箭头可展开台词清单，选择任意一句播放。右键人物或点击系统托盘图标可选择台词、更换人像、调整音量与大小、移回右下角或退出。托盘图标可能位于“显示隐藏图标”菜单中。
+下方四个按钮可单击或拖到人物区域触发牛肉、咖啡、苏打水及浇咖啡互动。拖到人物区域外会返回按钮，不中断当前播放。音量、大小、位置和人像会自动保存。
+
+设置与排查
+设置保存在 %LOCALAPPDATA%\ChenzhenPet\settings.json，启动或播放失败的错误记录在同目录的 error.log。无声时检查应用菜单音量、Windows 音量混合器与系统输出设备。
+
+更新
+先退出旧版，再下载并解压新版 ZIP。不要直接在压缩包内运行 EXE。
+
+源码构建与更新历史见项目仓库 https://github.com/aaba9152/chenzhen-desktop-pet 。许可见压缩包内的 LICENSE、ASSETS_LICENSE.md、CREDITS.txt。

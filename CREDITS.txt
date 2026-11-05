@@ -1,0 +1,32 @@
+陈震桌宠
+
+1.3.1 字幕框由 imagegen 生成，透明图存于 Assets/caption-bubble.png。
+
+1.3.0 头像近景和卫衣微笑由用户提供照片、经 imagegen 抠图并由用户选择；牛肉按钮由 imagegen 生成，源图保存在 materials/beef-icon-source.png。应用图标采用用户选择的 imagegen 卡通图案，原图保存在 Assets/AppIcon-source.png。
+
+1.2.0 手绘卡通碗、面条、咖啡、苏打水、水花和气泡由 imagegen 生成，按等尺寸图格导出透明 PNG，源图及导出记录保存在 materials/action-sprite-source.png、materials/action-assets.json。
+这些自有卡通道具随项目采用 MIT 许可；真人照片和原声仍按下文注明各自来源与权利。
+
+项目自有代码采用根目录 LICENSE 中的 MIT 许可。Windows 版使用 C#、WPF 和 NAudio / Windows WASAPI 音频输出，移植现有单人物交互与随机袋规则。
+Windows 音频使用 NAudio.Wasapi 2.2.1（MIT）：https://github.com/naudio/NAudio
+Copyright (c) 2020 Mark Heath，许可见 licenses/NAudio-MIT.txt。
+macOS 音频使用系统 AVAudioEngine。
+自带的 .NET 运行环境及第三方声明见 licenses/DotNet-LICENSE.txt、licenses/DotNet-ThirdPartyNotices.txt。
+
+透明窗口、鼠标交互、ShuffleBag 随机池、字幕和弹动动画，以及部分菜单、播放与构建逻辑，改编自 Ganzhe2028/ShaolanPet（MIT）：
+https://github.com/Ganzhe2028/ShaolanPet/tree/7ce7e2b1ed49c4da66d19d5aac419794af0d32db
+Copyright (c) 2026 Ganzhe2028
+
+上游原始 MIT 许可保留于 licenses/Upstream-MIT.txt、licenses/SunPet-MIT.txt，随应用打包。
+
+人物照片由用户提供，透明背景由 imagegen 处理；保留源照片和透明素材。
+音频来自“萝卜陈震同学”本人发布的出差视频，见 materials/sources.json。
+人物图和音频仅获准随本项目分发，代码许可不包含这些素材。具体使用范围见 ASSETS_LICENSE.md。
+
+音频开发阶段使用 Rikorose/DeepFilterNet 0.5.6 官方 Apple Silicon 二进制进行语音降噪（MIT）：
+https://github.com/Rikorose/DeepFilterNet/releases/tag/v0.5.6
+Copyright (c) 2021 Hendrik Schröter
+许可见 licenses/DeepFilterNet-MIT.txt。开发时需另行取得该工具；应用运行时只使用处理后的 WAV，不调用该工具。
+官方二进制 SHA-256：4601e7f4e4c03e59a4c5b5000216ef3add3e808799cfccd95e14e83ea4611081。
+
+牛肉筷子和咖啡水滴动画素材：使用 OpenAI imagegen 生成，参考项目已有卡通道具风格。

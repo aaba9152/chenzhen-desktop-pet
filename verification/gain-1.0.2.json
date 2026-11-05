@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "beforeLUFS": -20.04,
+    "afterLUFS": -13.97,
+    "increaseDB": 6.07,
+    "measuredLevelMultiplier": 2.011,
+    "truePeakDBTP": -2.77,
+    "clippedSamples": 0,
+    "durationUnchanged": true
+  },
+  {
+    "id": 2,
+    "beforeLUFS": -19.99,
+    "afterLUFS": -13.98,
+    "increaseDB": 6.01,
+    "measuredLevelMultiplier": 1.998,
+    "truePeakDBTP": -1.55,
+    "clippedSamples": 0,
+    "durationUnchanged": true
+  },
+  {
+    "id": 3,
+    "beforeLUFS": -19.99,
+    "afterLUFS": -13.96,
+    "increaseDB": 6.03,
+    "measuredLevelMultiplier": 2.002,
+    "truePeakDBTP": -1.55,
+    "clippedSamples": 0,
+    "durationUnchanged": true
+  },
+  {
+    "id": 4,
+    "beforeLUFS": -19.95,
+    "afterLUFS": -13.95,
+    "increaseDB": 6.0,
+    "measuredLevelMultiplier": 1.995,
+    "truePeakDBTP": -1.55,
+    "clippedSamples": 0,
+    "durationUnchanged": true
+  },
+  {
+    "id": 5,
+    "beforeLUFS": -20.03,
+    "afterLUFS": -14.06,
+    "increaseDB": 5.97,
+    "measuredLevelMultiplier": 1.988,
+    "truePeakDBTP": -1.55,
+    "clippedSamples": 0,
+    "durationUnchanged": true
+  },
+  {
+    "id": 6,
+    "beforeLUFS": -20.01,
+    "afterLUFS": -13.98,
+    "increaseDB": 6.03,
+    "measuredLevelMultiplier": 2.002,
+    "truePeakDBTP": -1.94,
+    "clippedSamples": 0,
+    "durationUnchanged": true
+  }
+]

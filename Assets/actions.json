@@ -1,0 +1,599 @@
+{
+  "version": 1,
+  "fps": 30,
+  "responses": [
+    2,
+    3
+  ],
+  "anchors": {
+    "mouth": [
+      0.3,
+      0.63
+    ],
+    "head": [
+      0.3,
+      0.04
+    ]
+  },
+  "actions": [
+    {
+      "id": "noodles",
+      "title": "牛肉面",
+      "icon": "beef",
+      "iconRotation": 0,
+      "duration": 1.44,
+      "layers": [
+        {
+          "sprite": "beef",
+          "width": 84.0,
+          "height": 84.0,
+          "frames": [
+            {
+              "t": 0.0,
+              "anchor": "start",
+              "x": 0.0,
+              "y": 0.0,
+              "sx": 0.5,
+              "sy": 0.5,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 0.3876923,
+              "anchor": "mouth",
+              "x": 0.0,
+              "y": 38.0,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 1.02461538,
+              "anchor": "mouth",
+              "x": 0.0,
+              "y": 38.0,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 1.44,
+              "anchor": "start",
+              "x": 0.0,
+              "y": 0.0,
+              "sx": 0.5,
+              "sy": 0.5,
+              "rotation": 0,
+              "alpha": 0
+            }
+          ]
+        },
+        {
+          "sprite": "chopsticks-beef",
+          "width": 112,
+          "height": 74.67,
+          "frames": [
+            {
+              "t": 0,
+              "anchor": "mouth",
+              "x": 30,
+              "y": 46,
+              "sx": 0.75,
+              "sy": 0.75,
+              "rotation": 0,
+              "alpha": 0
+            },
+            {
+              "t": 0.39,
+              "anchor": "mouth",
+              "x": 30,
+              "y": 28,
+              "sx": 0.75,
+              "sy": 0.75,
+              "rotation": 0,
+              "alpha": 0
+            },
+            {
+              "t": 0.55,
+              "anchor": "mouth",
+              "x": 30,
+              "y": 23,
+              "sx": 0.85,
+              "sy": 0.85,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 0.92,
+              "anchor": "mouth",
+              "x": 24,
+              "y": -7,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 1.1,
+              "anchor": "mouth",
+              "x": 24,
+              "y": -7,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 1.36,
+              "anchor": "mouth",
+              "x": 28,
+              "y": 14,
+              "sx": 0.8,
+              "sy": 0.8,
+              "rotation": 0,
+              "alpha": 0
+            },
+            {
+              "t": 1.44,
+              "anchor": "mouth",
+              "x": 28,
+              "y": 14,
+              "sx": 0.8,
+              "sy": 0.8,
+              "rotation": 0,
+              "alpha": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "title": "咖啡",
+      "icon": "coffee",
+      "iconRotation": 0,
+      "duration": 1.24,
+      "layers": [
+        {
+          "sprite": "coffee",
+          "width": 81.2,
+          "height": 81.2,
+          "frames": [
+            {
+              "t": 0.0,
+              "anchor": "start",
+              "x": 0.0,
+              "y": 0.0,
+              "sx": 0.5,
+              "sy": 0.5,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 0.39454546,
+              "anchor": "mouth",
+              "x": 23.8,
+              "y": 21.0,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 0.59181818,
+              "anchor": "mouth",
+              "x": 18.2,
+              "y": 14.0,
+              "sx": 1,
+              "sy": 1,
+              "rotation": -28,
+              "alpha": 1
+            },
+            {
+              "t": 0.84545454,
+              "anchor": "mouth",
+              "x": 23.8,
+              "y": 21.0,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 1.24,
+              "anchor": "start",
+              "x": 0.0,
+              "y": 0.0,
+              "sx": 0.5,
+              "sy": 0.5,
+              "rotation": 0,
+              "alpha": 0
+            }
+          ]
+        },
+        {
+          "sprite": "coffee-drops",
+          "width": 47.6,
+          "height": 47.6,
+          "frames": [
+            {
+              "t": 0,
+              "anchor": "mouth",
+              "x": 45,
+              "y": -5,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0
+            },
+            {
+              "t": 0.4,
+              "anchor": "mouth",
+              "x": 45,
+              "y": -5,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0
+            },
+            {
+              "t": 0.67,
+              "anchor": "mouth",
+              "x": 45,
+              "y": -24,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0.9
+            },
+            {
+              "t": 1.08,
+              "anchor": "mouth",
+              "x": 45,
+              "y": -60,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0
+            },
+            {
+              "t": 1.24,
+              "anchor": "mouth",
+              "x": 45,
+              "y": -60,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soda",
+      "title": "苏打水",
+      "icon": "soda",
+      "iconRotation": 0,
+      "duration": 1.36,
+      "layers": [
+        {
+          "sprite": "soda",
+          "width": 81.2,
+          "height": 81.2,
+          "frames": [
+            {
+              "t": 0.0,
+              "anchor": "start",
+              "x": 0.0,
+              "y": 0.0,
+              "sx": 0.5,
+              "sy": 0.5,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 0.39666666,
+              "anchor": "mouth",
+              "x": 23.8,
+              "y": 21.0,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 0.595,
+              "anchor": "mouth",
+              "x": 18.2,
+              "y": 14.0,
+              "sx": 1,
+              "sy": 1,
+              "rotation": -25,
+              "alpha": 1
+            },
+            {
+              "t": 0.935,
+              "anchor": "mouth",
+              "x": 23.8,
+              "y": 21.0,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 1.36,
+              "anchor": "start",
+              "x": 0.0,
+              "y": 0.0,
+              "sx": 0.5,
+              "sy": 0.5,
+              "rotation": 0,
+              "alpha": 0
+            }
+          ]
+        },
+        {
+          "sprite": "bubbles",
+          "width": 58.8,
+          "height": 58.8,
+          "frames": [
+            {
+              "t": 0.0,
+              "anchor": "mouth",
+              "x": 0.0,
+              "y": 0.0,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0
+            },
+            {
+              "t": 0.48166666,
+              "anchor": "mouth",
+              "x": 44.8,
+              "y": -5.6,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0
+            },
+            {
+              "t": 0.73666666,
+              "anchor": "mouth",
+              "x": 44.8,
+              "y": -25.2,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0.85
+            },
+            {
+              "t": 1.19,
+              "anchor": "mouth",
+              "x": 44.8,
+              "y": -67.2,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0
+            },
+            {
+              "t": 1.36,
+              "anchor": "mouth",
+              "x": 0.0,
+              "y": 0.0,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pour",
+      "title": "浇咖啡",
+      "icon": "coffee",
+      "iconRotation": -45,
+      "duration": 1.68,
+      "layers": [
+        {
+          "sprite": "coffee",
+          "width": 72.8,
+          "height": 72.8,
+          "frames": [
+            {
+              "t": 0.0,
+              "anchor": "start",
+              "x": 0.0,
+              "y": 0.0,
+              "sx": 0.5,
+              "sy": 0.5,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 0.448,
+              "anchor": "head",
+              "x": 36.4,
+              "y": -33.6,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 0.56,
+              "anchor": "head",
+              "x": 33.6,
+              "y": -33.6,
+              "sx": 1,
+              "sy": 1,
+              "rotation": -65,
+              "alpha": 1
+            },
+            {
+              "t": 0.896,
+              "anchor": "head",
+              "x": 33.6,
+              "y": -33.6,
+              "sx": 1,
+              "sy": 1,
+              "rotation": -65,
+              "alpha": 1
+            },
+            {
+              "t": 1.12,
+              "anchor": "head",
+              "x": 39.2,
+              "y": -42.0,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0
+            },
+            {
+              "t": 1.68,
+              "anchor": "mouth",
+              "x": 0.0,
+              "y": 0.0,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0
+            }
+          ]
+        },
+        {
+          "sprite": "stream",
+          "width": 14.0,
+          "height": 44.8,
+          "frames": [
+            {
+              "t": 0.0,
+              "anchor": "head",
+              "x": 0.0,
+              "y": -16.8,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0
+            },
+            {
+              "t": 0.532,
+              "anchor": "head",
+              "x": 0.0,
+              "y": -16.8,
+              "sx": 1,
+              "sy": 0.1,
+              "rotation": 0,
+              "alpha": 0
+            },
+            {
+              "t": 0.6048,
+              "anchor": "head",
+              "x": 0.0,
+              "y": -16.8,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 0.924,
+              "anchor": "head",
+              "x": 0.0,
+              "y": -16.8,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 1.036,
+              "anchor": "head",
+              "x": 0.0,
+              "y": -16.8,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0
+            },
+            {
+              "t": 1.68,
+              "anchor": "mouth",
+              "x": 0.0,
+              "y": 0.0,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0
+            }
+          ]
+        },
+        {
+          "sprite": "splash",
+          "width": 106.4,
+          "height": 81.2,
+          "frames": [
+            {
+              "t": 0.0,
+              "anchor": "head",
+              "x": 0.0,
+              "y": 0.0,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0
+            },
+            {
+              "t": 0.5992,
+              "anchor": "head",
+              "x": 0.0,
+              "y": 12.6,
+              "sx": 0.2,
+              "sy": 0.2,
+              "rotation": 0,
+              "alpha": 0
+            },
+            {
+              "t": 0.728,
+              "anchor": "head",
+              "x": 0.0,
+              "y": 12.6,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 1.176,
+              "anchor": "head",
+              "x": 0.0,
+              "y": 23.8,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 1
+            },
+            {
+              "t": 1.68,
+              "anchor": "head",
+              "x": 0.0,
+              "y": 42.0,
+              "sx": 1,
+              "sy": 1,
+              "rotation": 0,
+              "alpha": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

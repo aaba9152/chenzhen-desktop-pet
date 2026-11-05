@@ -1,0 +1,47 @@
+[
+  {
+    "name": "noodles-candidate",
+    "start": 0.0,
+    "end": 8.0
+  },
+  {
+    "name": "thanks-candidate",
+    "start": 9.0,
+    "end": 16.0
+  },
+  {
+    "name": "wide-02",
+    "start": 17.0,
+    "end": 21.18
+  },
+  {
+    "name": "wide-03",
+    "start": 22.18,
+    "end": 26.66
+  },
+  {
+    "name": "wide-04",
+    "start": 27.66,
+    "end": 31.37
+  },
+  {
+    "name": "wide-05",
+    "start": 32.37,
+    "end": 36.86
+  },
+  {
+    "name": "soda-candidate",
+    "start": 37.86,
+    "end": 46.86
+  },
+  {
+    "name": "soda-new-candidate",
+    "start": 47.86,
+    "end": 53.86
+  },
+  {
+    "name": "thanks-alt-candidate",
+    "start": 54.86,
+    "end": 59.86
+  }
+]

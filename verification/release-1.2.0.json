@@ -1,0 +1,74 @@
+{
+  "version": "1.2.0",
+  "actionDurationsSeconds": {
+    "noodles": 1.44,
+    "coffee": 1.24,
+    "soda": 1.36,
+    "pour": 1.68
+  },
+  "macOS": {
+    "nativeSelfTest": "PASS",
+    "naturalCompletionAllSix": "PASS",
+    "rapidInterruptionAndStaleCallbacks": "PASS",
+    "feedingControllerValidInvalidDrops": "PASS",
+    "sizes": [
+      190,
+      260,
+      340
+    ],
+    "actualFourButtons": "PASS",
+    "externalPointerDragAutomation": "not completed; controller and passive ghost window verified in native self-test",
+    "dmgSignature": "PASS on mounted image",
+    "dmgCopyLaunch": "PASS",
+    "dmgVersion": "1.2.0",
+    "sharedRuntimeAssetHashes": "PASS",
+    "audioScheduling": {
+      "backend": "AVAudioEngine / predecoded PCM",
+      "maxMS": 14.102250002906658,
+      "meanMS": 10.558407657741997,
+      "measurement": "main-thread request to scheduled playback; excludes physical device latency",
+      "requests": 74
+    }
+  },
+  "windows": {
+    "architecture": "x64",
+    "deployment": "self-contained single EXE / .NET 10",
+    "compile": "PASS",
+    "coreTests": "PASS",
+    "pcmInterruptionAndSilence": "PASS",
+    "randomRounds": 2000,
+    "crossPlatformSceneSamples": 84,
+    "embeddedAssetHashes": 17,
+    "zipIntegrity": "PASS",
+    "nativeWindowsUIAndAudioTested": false,
+    "exeSHA256": "45bfc4fbb4c15825b139274b6aa145db346113690c25c3f1a219903c3b1a220a",
+    "audioBackend": "NAudio.Wasapi 2.2.1 / cached PCM / shared event-driven output"
+  },
+  "audio": {
+    "removedClip2LeadingMS": 370,
+    "clip2ASRConfirmation": "谢谢你啊。",
+    "clip2DurationSeconds": 0.49,
+    "otherFiveWavAndPortraitUnchangedFrom": "v1.1.0",
+    "speechSpeedChanged": false,
+    "gainChanged": false,
+    "onsetReport": "audio-onsets-1.2.0.json"
+  },
+  "previews": [
+    "docs/previews/noodles.gif",
+    "docs/previews/coffee.gif",
+    "docs/previews/pour.gif",
+    "docs/previews/soda.gif"
+  ],
+  "releaseFiles": [
+    {
+      "name": "ChenzhenPet-Windows-x64-1.2.0.zip",
+      "bytes": 73291061,
+      "sha256": "682c0959a0df6a0fb37bea2f2f0e9b20bac4da34069b1e9353d4cd3f90e877f0"
+    },
+    {
+      "name": "ChenzhenPet-1.2.0.dmg",
+      "bytes": 5045266,
+      "sha256": "408d09e267c894b4f0c18662697698ff19d5d913787cd56120f58104a4eba2e9"
+    }
+  ]
+}

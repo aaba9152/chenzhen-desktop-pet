@@ -1,0 +1,20 @@
+[
+  {
+    "context": "thanks-alt-candidate",
+    "sourceStart": 463.3,
+    "sourceEnd": 463.48,
+    "inputDBFS": -40.91091915077171,
+    "outputDBFS": -73.42044562763492,
+    "reductionDB": 32.50952647686321,
+    "note": "Same input headroom; context gap, not an intelligibility score."
+  },
+  {
+    "context": "wide-03",
+    "sourceStart": 590.3,
+    "sourceEnd": 590.55,
+    "inputDBFS": -42.50164763569417,
+    "outputDBFS": -76.80091572575921,
+    "reductionDB": 34.29926809006504,
+    "note": "Same input headroom; context gap, not an intelligibility score."
+  }
+]

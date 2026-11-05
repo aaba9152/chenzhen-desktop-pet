@@ -1,0 +1,7 @@
+{
+  "backend" : "AVAudioEngine \/ predecoded PCM",
+  "maxMS" : 14.102250002906658,
+  "meanMS" : 10.558407657741997,
+  "measurement" : "main-thread request to scheduled playback; excludes physical device latency",
+  "requests" : 74
+}

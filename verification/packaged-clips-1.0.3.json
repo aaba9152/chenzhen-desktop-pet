@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01.wav",
+    "sha256": "7e4acba8c24c412e7081d2a99f0d8f71c37fa3822426ddb64308c09f5ffbcea9"
+  },
+  {
+    "file": "02.wav",
+    "sha256": "02dea025c5170efcafb92c1134b8b68597d3744993d6d859fc10d5a27978bbad"
+  },
+  {
+    "file": "03.wav",
+    "sha256": "758f905af02c9221afadf35e48d0d18ab2427579f28ec69f86d65733c932ef71"
+  },
+  {
+    "file": "04.wav",
+    "sha256": "1f592912e8620b713e9a1ea3c66238fd721d43b955b3cbef266436a7650500a4"
+  },
+  {
+    "file": "05.wav",
+    "sha256": "d381e682ee88c02f2563affd38be70fa304d21233e42721a427f6e881e7accfe"
+  },
+  {
+    "file": "06.wav",
+    "sha256": "03430726c39ed15bac46d3c4e579b033ccbc62d325e46441de4a185a131df84f"
+  }
+]

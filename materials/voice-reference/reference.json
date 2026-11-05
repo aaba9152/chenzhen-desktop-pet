@@ -1,0 +1,11 @@
+{
+  "version": "1.0.1",
+  "integratedTargetLUFS": -20,
+  "description": "Reviewed 1.0.1 denoised reference; 1.2.0 removes 370 ms of low-energy lead-in from 02.wav without changing its spoken samples or gain.",
+  "leadingSilenceRemovedInVersion": "1.2.0",
+  "leadingSilenceTrimSeconds": {
+    "02.wav": 0.37
+  },
+  "clip05TrimVersion": "1.3.0",
+  "clip05DurationSeconds": 1.04
+}

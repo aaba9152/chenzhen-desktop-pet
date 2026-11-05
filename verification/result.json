@@ -1,0 +1,22 @@
+{
+  "app": "陈震桌宠",
+  "version": "1.0.3",
+  "platform": "macOS 14+ / arm64",
+  "selfTest": "PASS all desktop pet checks",
+  "referenceVersion": "1.0.1",
+  "requestedGainDB": 10,
+  "measuredMedianGainDB": 9.920272901229673,
+  "speechSpreadBeforeDB": 2.165619933811694,
+  "speechSpreadAfterDB": 0.09942693805527725,
+  "levelingReference": "Fixed 20ms speech-frame mask from the reviewed denoised reference; pause exclusion; per-clip compression and oversampled peak protection",
+  "clippedSamples": 0,
+  "durationsUnchanged": true,
+  "dmgSignatureVerified": true,
+  "dmgVersionVerified": "1.0.3",
+  "dmgAudioHashesMatch": true,
+  "normalAppOpened": true,
+  "clickPlaybackCaptionVerified": true,
+  "gitBaseline": "v1.0.2",
+  "gitRelease": "v1.0.3",
+  "levelingRecord": "level-match-1.0.3.json"
+}

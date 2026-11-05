@@ -1,0 +1,41 @@
+[
+  {
+    "id": "near",
+    "name": "黄色长发",
+    "file": "Portraits/portrait-near.png",
+    "mouth": [
+      0.478523,
+      0.56
+    ],
+    "head": [
+      0.521477,
+      0.02
+    ]
+  },
+  {
+    "id": "smile",
+    "name": "黑色长发",
+    "file": "Portraits/portrait-smile.png",
+    "mouth": [
+      0.41,
+      0.582214
+    ],
+    "head": [
+      0.4,
+      0.022393
+    ]
+  },
+  {
+    "id": "original",
+    "name": "短发",
+    "file": "face.png",
+    "mouth": [
+      0.3,
+      0.63
+    ],
+    "head": [
+      0.3,
+      0.04
+    ]
+  }
+]

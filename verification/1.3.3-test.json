@@ -1,0 +1,17 @@
+{
+  "macos": {
+    "build": "passed",
+    "self_test": "passed",
+    "animation_and_caption_preview": "passed",
+    "installed_launch": "passed",
+    "distribution_signature": "passed"
+  },
+  "windows": {
+    "cross_compile": "passed",
+    "core_assets_and_cross_platform_scenes": "passed",
+    "native_gui_audio": "not tested; no Windows machine"
+  },
+  "distribution": {
+    "zip_integrity": "passed"
+  }
+}

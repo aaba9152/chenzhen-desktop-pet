@@ -1,0 +1,24 @@
+{
+  "version": "1.1.0",
+  "windows": {
+    "architecture": "x64",
+    "deployment": "self-contained single EXE / .NET 10",
+    "compile": "PASS",
+    "coreTests": "PASS",
+    "randomRounds": 2000,
+    "embeddedAssetHashes": 10,
+    "zipIntegrity": "PASS",
+    "nativeWindowsUIAndAudioTested": false,
+    "exeSHA256": "a9afd3917941647b492782ce269471565b226d7231b326362508ac4e48afc335"
+  },
+  "macOS": {
+    "nativeSelfTest": "PASS",
+    "dmgSignature": "PASS",
+    "dmgVersion": "1.1.0",
+    "sharedClipHashes": "PASS"
+  },
+  "releaseFiles": [
+    "ChenzhenPet-Windows-x64-1.1.0.zip",
+    "ChenzhenPet-1.1.0.dmg"
+  ]
+}

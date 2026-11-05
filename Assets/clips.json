@@ -1,0 +1,38 @@
+[
+  {
+    "id": 3,
+    "label": "这你受得了吗",
+    "file": "03.wav",
+    "duration": 0.97
+  },
+  {
+    "id": 1,
+    "label": "牛肉面不要面",
+    "file": "01.wav",
+    "duration": 0.76
+  },
+  {
+    "id": 2,
+    "label": "谢谢你啊",
+    "file": "02.wav",
+    "duration": 0.49
+  },
+  {
+    "id": 5,
+    "label": "冰的美式",
+    "file": "05.wav",
+    "duration": 1.04
+  },
+  {
+    "id": 4,
+    "label": "其实不用",
+    "file": "04.wav",
+    "duration": 0.51
+  },
+  {
+    "id": 6,
+    "label": "冰的苏打水",
+    "file": "06.wav",
+    "duration": 0.77
+  }
+]

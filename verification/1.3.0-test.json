@@ -1,0 +1,59 @@
+{
+  "version": "1.3.0 test",
+  "status": "unreleased; selected app icon installed",
+  "audioOrder": [
+    "这你受得了吗",
+    "牛肉面不要面",
+    "谢谢你啊",
+    "冰的美式",
+    "其实不用",
+    "冰的苏打水"
+  ],
+  "clip05": {
+    "seconds": 1.04,
+    "selection": "C, selected by user",
+    "fadeOutMS": 15
+  },
+  "portraits": [
+    "经典微笑",
+    "近景",
+    "卫衣微笑"
+  ],
+  "macOS": {
+    "build": "PASS",
+    "selfTest": "PASS",
+    "actualUIOrderedSix": "PASS",
+    "actualUIToggleAndReadability": "PASS",
+    "actualUIBothPortraits": "PASS",
+    "restartPersistsPortrait": "PASS",
+    "installedAppMatchesBuild": "PASS",
+    "dmgSignature": "PASS",
+    "buildNumber": "9",
+    "selectedIconMatchesInstalled": "PASS"
+  },
+  "windows": {
+    "crossCompile": "PASS",
+    "coreTests": "PASS",
+    "embeddedAssetChecks": 21,
+    "nativeUIAndAudio": "not tested",
+    "selectedIconEmbedded": "PASS: compiled resource hash"
+  },
+  "artifacts": [
+    {
+      "file": "ChenzhenPet-1.3.0.dmg",
+      "sha256": "26de9a05521acff651ead14ee9b86a47aaefc65aee5fbed8cfdf59d42dc89812"
+    },
+    {
+      "file": "ChenzhenPet-Windows-x64-1.3.0.zip",
+      "sha256": "b404869bc73cbc11a74966de61e3a48056b2dc40c639efdb3aaaa0b276a68ab6"
+    }
+  ],
+  "iconExplorationThread": "01a1ab48-f2a2-7ff3-b20f-9c7bd467d5ae",
+  "icon": {
+    "source": "Assets/AppIcon-source.png",
+    "sha256": "38f5ae280803a37579f620301af5d6ab260a537b4f5e34165ec4f56d4d41937f",
+    "macOSExport": "Assets/AppIcon.icns",
+    "windowsExport": "Windows/AppIcon.ico",
+    "userSelected": true
+  }
+}

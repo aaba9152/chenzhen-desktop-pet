@@ -1,0 +1,77 @@
+{
+  "version": "1.0.3",
+  "referenceVersion": "1.0.1",
+  "requestedGainDB": 10,
+  "measuredMedianGainDB": 9.920272901229673,
+  "beforeSpeechSpreadDB": 2.165619933811694,
+  "afterSpeechSpreadDB": 0.09942693805527725,
+  "method": "20ms RMS; fixed frame mask from denoised reference, gate 20dB below peak frame; compression and oversampled peak protection",
+  "clips": [
+    {
+      "id": 1,
+      "label": "牛肉面不要面",
+      "referenceActiveRMSDBFS": -19.676807663116918,
+      "beforeActiveRMSDBFS": -13.656207749837293,
+      "afterActiveRMSDBFS": -8.44728305803229,
+      "gainFromPreviousDB": 5.208924691805002,
+      "truePeakDBTP": -0.5,
+      "clippedSamples": 0,
+      "durationUnchanged": true
+    },
+    {
+      "id": 2,
+      "label": "谢谢你啊",
+      "referenceActiveRMSDBFS": -17.69147103344601,
+      "beforeActiveRMSDBFS": -11.675714680314258,
+      "afterActiveRMSDBFS": -8.444725769508675,
+      "gainFromPreviousDB": 3.230988910805582,
+      "truePeakDBTP": -0.5,
+      "clippedSamples": 0,
+      "durationUnchanged": true
+    },
+    {
+      "id": 3,
+      "label": "这你受得了吗",
+      "referenceActiveRMSDBFS": -18.658052843351406,
+      "beforeActiveRMSDBFS": -12.812648990395495,
+      "afterActiveRMSDBFS": -8.409201612723239,
+      "gainFromPreviousDB": 4.403447377672256,
+      "truePeakDBTP": -0.49,
+      "clippedSamples": 0,
+      "durationUnchanged": true
+    },
+    {
+      "id": 4,
+      "label": "其实不用",
+      "referenceActiveRMSDBFS": -18.14024335500913,
+      "beforeActiveRMSDBFS": -12.127497283195146,
+      "afterActiveRMSDBFS": -8.347856119977013,
+      "gainFromPreviousDB": 3.779641163218132,
+      "truePeakDBTP": -0.72,
+      "clippedSamples": 0,
+      "durationUnchanged": true
+    },
+    {
+      "id": 5,
+      "label": "冰的美式就可以了",
+      "referenceActiveRMSDBFS": -17.415085348189038,
+      "beforeActiveRMSDBFS": -11.490587816025599,
+      "afterActiveRMSDBFS": -8.410437243098405,
+      "gainFromPreviousDB": 3.0801505729271934,
+      "truePeakDBTP": -0.49,
+      "clippedSamples": 0,
+      "durationUnchanged": true
+    },
+    {
+      "id": 6,
+      "label": "冰的苏打水",
+      "referenceActiveRMSDBFS": -18.5554654600573,
+      "beforeActiveRMSDBFS": -12.534865322645114,
+      "afterActiveRMSDBFS": -8.444747378920963,
+      "gainFromPreviousDB": 4.090117943724151,
+      "truePeakDBTP": -0.49,
+      "clippedSamples": 0,
+      "durationUnchanged": true
+    }
+  ]
+}

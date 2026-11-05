@@ -1,0 +1,123 @@
+{
+  "portrait": {
+    "source": "user-provided photograph",
+    "original": "portrait-user-source.png",
+    "processing": "transparent background extraction; original face and pose retained"
+  },
+  "processing": {
+    "denoise": "DeepFilterNet v0.5.6; compensated delay; maximum attenuation 35 dB; input headroom -6 dB; highpass 70 Hz",
+    "leveling": "Active speech RMS matching, pause exclusion, compression, oversampled transient peak protection",
+    "gainDB": 10,
+    "referenceVersion": "1.0.1",
+    "frameMS": 20,
+    "gateBelowPeakDB": 20,
+    "compressor": "acompressor=threshold=0.0630957:ratio=3:knee=2.828:attack=1:release=30:makeup=1:detection=peak",
+    "truePeakCeilingDBTP": -0.5,
+    "referenceMedianActiveRMSDBFS": -18.347854407533212,
+    "targetActiveRMSDBFS": -8.347854407533212,
+    "leadingSilenceTrimSeconds": {
+      "02.wav": 0.37
+    },
+    "clip05Trim": "1.04 s with 15 ms fade-out; preview C selected by user; original source interval retained in git history"
+  },
+  "audio": [
+    {
+      "id": 1,
+      "label": "牛肉面不要面",
+      "sourceFile": "BV1euN16aEY9.m4a",
+      "url": "https://www.bilibili.com/video/BV1euN16aEY9/",
+      "title": "陈浸式出差，北京飞成都，要素齐全",
+      "uploader": "萝卜陈震同学",
+      "start": 64.9,
+      "end": 65.66,
+      "file": "01.wav",
+      "sourceStart": 64.9,
+      "sourceEnd": 65.66,
+      "duration": 0.76
+    },
+    {
+      "id": 2,
+      "label": "谢谢你啊",
+      "sourceFile": "BV1euN16aEY9.m4a",
+      "url": "https://www.bilibili.com/video/BV1euN16aEY9/",
+      "title": "陈浸式出差，北京飞成都，要素齐全",
+      "uploader": "萝卜陈震同学",
+      "start": 463.55,
+      "end": 464.04,
+      "file": "02.wav",
+      "sourceStart": 463.55,
+      "sourceEnd": 464.04,
+      "duration": 0.49
+    },
+    {
+      "id": 3,
+      "label": "这你受得了吗",
+      "sourceFile": "BV1euN16aEY9.m4a",
+      "url": "https://www.bilibili.com/video/BV1euN16aEY9/",
+      "title": "陈浸式出差，北京飞成都，要素齐全",
+      "uploader": "萝卜陈震同学",
+      "start": 590.73,
+      "end": 591.7,
+      "file": "03.wav",
+      "sourceStart": 590.73,
+      "sourceEnd": 591.7,
+      "duration": 0.97
+    },
+    {
+      "id": 4,
+      "label": "其实不用",
+      "sourceFile": "BV1euN16aEY9.m4a",
+      "url": "https://www.bilibili.com/video/BV1euN16aEY9/",
+      "title": "陈浸式出差，北京飞成都，要素齐全",
+      "uploader": "萝卜陈震同学",
+      "start": 188.46,
+      "end": 188.97,
+      "file": "04.wav",
+      "sourceStart": 188.46,
+      "sourceEnd": 188.97,
+      "duration": 0.51
+    },
+    {
+      "id": 5,
+      "label": "冰的美式",
+      "sourceFile": "BV1euN16aEY9.m4a",
+      "url": "https://www.bilibili.com/video/BV1euN16aEY9/",
+      "title": "陈浸式出差，北京飞成都，要素齐全",
+      "uploader": "萝卜陈震同学",
+      "start": 197.6,
+      "end": 198.64,
+      "file": "05.wav",
+      "sourceStart": 197.6,
+      "sourceEnd": 198.64,
+      "duration": 1.04
+    },
+    {
+      "id": 6,
+      "label": "冰的苏打水",
+      "sourceFile": "BV1euN16aEY9.m4a",
+      "url": "https://www.bilibili.com/video/BV1euN16aEY9/",
+      "title": "陈浸式出差，北京飞成都，要素齐全",
+      "uploader": "萝卜陈震同学",
+      "start": 153.1,
+      "end": 153.87,
+      "file": "06.wav",
+      "sourceStart": 153.1,
+      "sourceEnd": 153.87,
+      "duration": 0.77
+    }
+  ],
+  "additionalPortraits": [
+    {
+      "id": "near",
+      "source": "materials/portrait-near-source.tiff",
+      "file": "Assets/Portraits/portrait-near.png",
+      "processing": "imagegen transparent cutout, selected by user"
+    },
+    {
+      "id": "smile",
+      "source": "materials/portrait-smile-source.tiff",
+      "file": "Assets/Portraits/portrait-smile.png",
+      "processing": "imagegen transparent cutout, selected by user"
+    }
+  ]
+}

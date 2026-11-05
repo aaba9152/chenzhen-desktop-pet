@@ -1,0 +1,22 @@
+{
+  "version": "1.3.1",
+  "macos": {
+    "build": "passed",
+    "self_test": "passed",
+    "installed_and_launched": "passed",
+    "caption_visual": "passed",
+    "portrait_sizing": "passed in self-test",
+    "palette_ui_click": "automation timed out; separate panel geometry checked in self-test",
+    "beef_and_coffee_animation": "preview frames and installed UI checked"
+  },
+  "windows": {
+    "cross_compile": "passed",
+    "core_and_assets": "passed",
+    "native_gui": "not tested; no Windows machine",
+    "shared_animation_resources": "24 embedded assets and 84 cross-platform animation samples passed"
+  },
+  "distribution": {
+    "dmg_signature": "passed",
+    "windows_zip_integrity": "passed"
+  }
+}

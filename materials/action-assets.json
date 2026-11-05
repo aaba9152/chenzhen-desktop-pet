@@ -1,0 +1,23 @@
+{
+  "generator": "imagegen",
+  "source": "action-sprite-source.png",
+  "grid": [
+    3,
+    2
+  ],
+  "exportSize": [
+    512,
+    512
+  ],
+  "sprites": [
+    "bowl",
+    "noodles",
+    "coffee",
+    "soda",
+    "splash",
+    "bubbles"
+  ],
+  "style": "hand-drawn meme stickers, transparent PNG",
+  "portraitAndVoiceChanged": false,
+  "version": "1.2.0"
+}
