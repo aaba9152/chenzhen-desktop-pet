@@ -27,7 +27,7 @@ python3 Tools/transcribe.py path/to/audio.wav --model-file /path/to/model.pt
 python3 Tools/audit-final-audio.py --model-file /path/to/model.pt
 ```
 
-转写结果仅供人工复核，不会自动替换应用字幕。脚本不读取个人目录中的模型，也不调用云端转写服务。
+转写结果供人工复核。模型权重由 `--model-file` 指定，应用字幕保存在 `Assets/clips.json`。
 
 ## 动画素材
 
